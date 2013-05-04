@@ -162,7 +162,7 @@ EOD;
         $post_html = str_get_html($main);
 //        $post_html = str_get_html($html);
 
-        $first_img = $post_html->find('#rightContents img', 0);
+        $first_img = $post_html->find('#previewImageMain', 0);
         
         if ($first_img !== null) {
             $image_src = $first_img->src;
