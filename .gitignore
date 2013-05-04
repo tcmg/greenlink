@@ -10,5 +10,7 @@ ehthumbs.db
 Thumbs.db
 
 application/config/database.php
+application/config/config.php
+images/
 
 
